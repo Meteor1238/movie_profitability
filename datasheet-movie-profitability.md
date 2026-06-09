@@ -19,7 +19,7 @@
 
 4. **Any other comments?**
 
-    None.
+    Không.
 
 
 
@@ -75,7 +75,12 @@
 
     Nhãn mục tiêu là biến nhị phân profitable, được tính theo công thức:
 
-    $$\text{profitable} = \begin{cases} 1, & \text{nếu } \dfrac{\text{revenue}}{\text{budget}} \ge 2.5 \\ 0, & \text{ngược lại} \end{cases}$$
+    $$\text{profitable} =
+    \begin{cases}
+        1,        & \quad \text{nếu } \dfrac{\text{revenue}}{\text{budget}} \ge 2.5\\
+        0,        & \quad \text{ngược lại}
+    \end{cases}
+    $$
 
 
 6. **Is any information missing from individual instances?**
@@ -184,7 +189,7 @@
 
 2. **Was the "raw" data saved in addition to the preprocessed/cleaned/labeled data?**
 
-    Có. Dữ liệu thô được lưu tại `data/raw/`. Dữ liệu đã xử lý hoàn chỉnh lưu tại `data/processed/`.
+    Có. Dữ liệu thô được lưu tại data/raw/. Dữ liệu đã xử lý hoàn chỉnh lưu tại data/processed/.
 
 
 3. **Is the software used to preprocess/clean/label the instances available?**
@@ -194,7 +199,7 @@
 
 4. **Any other comments?**
 
-    None.
+    Không.
 
 
 
@@ -241,7 +246,7 @@
 
 1. **Will the dataset be distributed to third parties outside of the entity on behalf of which the dataset was created?**
 
-    Bộ dữ liệu có sẵn và có thể được truy cập. Tuy nhiên, nhóm chưa có ý định phân phối rộng rãi ra bên ngoài. Hiện tịa bộ dữ liệu chỉ được lưu trữ trên kho lưu trữ của dự án trên GitHub nhằm mục đích học tập.
+    Bộ dữ liệu có sẵn và có thể được truy cập. Tuy nhiên, nhóm chưa có ý định phân phối rộng rãi ra bên ngoài. Hiện tại bộ dữ liệu chỉ được lưu trữ trên kho lưu trữ của dự án trên GitHub nhằm mục đích học tập.
 
 
 2. **How will the dataset be distributed?**
@@ -271,7 +276,7 @@
 
 7. **Any other comments?**
 
-    None.
+    Không.
 
 
 
@@ -281,12 +286,12 @@
 
 1. **Who is supporting/hosting/maintaining the dataset?**
 
-    Nhóm sinh viên thực hiện đồ án. *(Điền thông tin cụ thể nếu cần.)*
+    Nhóm sinh viên thực hiện đồ án.
 
 
 2. **How can the owner/curator/manager of the dataset be contacted?**
 
-    *(Điền thông tin liên lạc của nhóm.)*
+    Qua email đại diện của nhóm: 24520170@gm.uit.edu.vn
 
 
 3. **Is there an erratum?**
@@ -301,19 +306,19 @@
 
 5. **If the dataset relates to people, are there applicable limits on the retention of the data associated with the instances?**
 
-    N/A — dataset không chứa dữ liệu cá nhân trực tiếp.
+    Không. Bộ dữ liệu không chứa thông tin cá nhân.
 
 
 6. **Will older versions of the dataset continue to be supported/hosted/maintained?**
 
-    *(Chưa xác định.)*
+    Không. Các phiên bản cũ (nếu có) sẽ được quản lý thông qua lịch sử commit trên GitHub, nhưng sẽ không có sự hỗ trợ kỹ thuật riêng biệt cho từng phiên bản.
 
 
 7. **If others want to extend/augment/build on/contribute to the dataset, is there a mechanism for them to do so?**
 
-    *(Chưa xác định.)*
+    Có. Những người quan tâm có thể thực hiện gửi Pull Request nếu muốn đóng góp cải thiện dữ liệu/mã nguồn. Các đóng góp sẽ được nhóm xem xét và phản hồi trong phạm vi khả năng của nhóm.
 
 
 8. **Any other comments?**
 
-    None.
+    Không.
