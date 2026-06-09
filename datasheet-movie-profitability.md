@@ -75,12 +75,12 @@
 
     Nhãn mục tiêu là biến nhị phân profitable, được tính theo công thức:
 
-    $$\text{profitable} =
-    \begin{cases}
-        1,        & \quad \text{nếu } \dfrac{\text{revenue}}{\text{budget}} \ge 2.5\\
-        0,        & \quad \text{ngược lại}
-    \end{cases}
-    $$
+$$\text{profitable} =
+\begin{cases}
+    1,        & \quad \text{nếu } \dfrac{\text{revenue}}{\text{budget}} \ge 2.5\\
+    0,        & \quad \text{ngược lại}
+\end{cases}
+$$
 
 
 6. **Is any information missing from individual instances?**
